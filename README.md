@@ -12,9 +12,11 @@ Prerequisites: CSS, HTML <br>
 
 ---
 
-# Warm-Up Exercise
+# Velcro
 
-## CSS Frameworks
+Because bootstraps should be simple.
+
+## What Is A CSS Framework?
 
 A CSS framework can save you time when styling applications. A framework is really just a (hopefully cohesive) stylesheet that has been designed by someone else and made available to others.
 
@@ -53,23 +55,13 @@ To use Bootstrap, you can download a file and keep it in your application or use
 
 Bootstrap is a very robust framework! It has pretty much everything that you need (plus more). After this lesson, take some time to explore the site to see more of the offerings. Consider using it in your homework or projects.
 
-## Code along:
+## Installation
 
-1. Go to [Bootstrap's framework page](http://getbootstrap.com/) to get their stylesheets.
+1. Go to [Bootstrap's framework page](https://getbootstrap.com/docs/5.0/getting-started/download/#cdn-via-jsdelivr) to get their stylesheets. You'll add the CDN link (both the `link` and `script` tags) to the head of your HTML document. Preferably ABOVE your own stylesheet link, so that your own styles (should you add any) will take precedence.
 
-> Direct link to documentation:
-> https://getbootstrap.com/docs/4.0/getting-started/download/
+2. Refresh your browser and take a look at what happened after just initially linking Bootstrap! If you blinked and missed it, try deleting he line again to see what you got--without even adding any classes in. Thanks, Bootstrap!
 
-2. You could download the files (but let's not do that for this exercise):
-   ![](https://i.imgur.com/Y2bjh8G.png)
-
-3. Let's use the Bootstrap CDN link to get the style's to our page. Add the CDN link into your `index.html` file
-
-`<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">`
-
-4. Refresh your browser and take a look at what happened after just initially linking Bootstrap.
-
-5. We'll be using classes from the `Layout`, `Content`, and `Components` section. You can browse through these sections in the sidebar on Bootstrap's page to see some options for what we can do.
+3. We'll be using classes from the `Layout`, `Content`, and `Components` section of [Bootstrap's documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/). You can browse through these sections in the sidebar on Bootstrap's page to see some options for what we can do.
 
 ## Nav bar
 
@@ -100,7 +92,7 @@ Bootstrap is a very robust framework! It has pretty much everything that you nee
 > Direct link to documentation:
 > https://getbootstrap.com/docs/4.0/layout/overview/
 
-1. Let's start by wrapping our site content in a container: `class = "container"`. What does this do?
+Let's start by wrapping our site content in a container: `class = "container"`. What does this do?
 
 We can use `.container` for a responsive fixed width container.
 
@@ -157,7 +149,7 @@ Bootstrap has multiple button options:
 
   ![button large](https://i.imgur.com/UCkuKtI.png)
 
-1. Choose one and add it in the `a` tag to turn the `Learn More` link to a button.
+Choose one and add it in the `a` tag to turn the `Learn More` link to a button.
 
 #### Style the table
 
@@ -179,7 +171,7 @@ Bootstrap has multiple button options:
 
 Bootstrap has something called `jumbotron` which has styling to showcase a section.
 
-1. Let's add `class="jumbotron"` to the section marked as `callout` in our index.html.
+Let's add `class="jumbotron"` to the section marked as `callout` in our index.html.
 
 ![jumbotron](https://i.imgur.com/2bPaxXf.png)
 
